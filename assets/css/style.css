@@ -1,0 +1,73 @@
+body {
+  background-image: url("../images/weather.png");
+}
+
+.gameName {
+  padding: 10px;
+  background-color: #cb6f34;
+  width: 300px;
+  margin: auto;
+  float: left;
+  margin: 5px;
+}
+
+.text {
+  clear: both;
+  background-color: #fbe5cf;
+  width: 650px;
+  margin: 5px;
+  padding: 20px;
+  color: green;
+  font-size: 1em;
+}
+
+.gameNumber {
+  background-color: #7bcdab;
+  width: 200px;
+  margin: 5px;
+  padding: 20px;
+  height: 100px;
+  color: purple;
+  font-weight: bold;
+  font-size: 3em;
+  float: left;
+}
+
+#p1 {
+  float: left;
+  background: #61ffff;
+  margin: 5px;
+  height: 100px;
+  padding: 20px;
+  width: 100px;
+  font-weight: bold;
+}
+
+.gems {
+  clear: both;
+  float: left;
+  width: 700px;
+}
+
+.playerScore {
+  clear: both;
+  background-color: #20a396;
+  margin: 5px;
+  padding: 20px;
+  width: 200px;
+  color: white;
+  font-weight: bold;
+}
+
+.score {
+  clear: both;
+  background-color: #20a396;
+  width: 200px;
+  margin: 5px;
+  padding: 20px;
+  height: 75px;
+  font-weight: bold;
+  font-size: 1.5em;
+  float: left;
+  color: white;
+}
