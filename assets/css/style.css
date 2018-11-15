@@ -42,6 +42,15 @@ body {
   width: 100px;
   font-weight: bold;
 }
+#p2 {
+  float: left;
+  background: #61ffff;
+  margin: 5px;
+  height: 100px;
+  padding: 20px;
+  width: 100px;
+  font-weight: bold;
+}
 
 .gems {
   clear: both;
