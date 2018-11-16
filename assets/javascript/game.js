@@ -10,26 +10,31 @@ $(document).ready(function() {
   var c4 = Math.floor(Math.random() * 11 + 1);
   console.log(c4);
   var wins = 0;
+  $("#p1").html(wins);
   var losses = 0;
+  $("#p2").html(losses);
   var playerScore = 0;
   var gameNumber = Math.floor(Math.random() * 101 + 19);
   console.log(gameNumber);
   $(".gameNumber").html(gameNumber);
 
   $("#c1").on("click", function() {
-    console.log(c1);
-    $(".score").html(c1);
+    playerScore += c1;
+    $(".score").html(playerScore);
   });
 
   $("#c2").on("click", function() {
-    console.log(c2);
+    playerScore += c2;
+    $(".score").html(playerScore);
   });
 
   $("#c3").on("click", function() {
-    console.log(c3);
+    playerScore += c3;
+    $(".score").html(playerScore);
   });
 
   $("#c4").on("click", function() {
-    console.log(c4);
+    playerScore += c4;
+    $(".score").html(playerScore);
   });
 });
