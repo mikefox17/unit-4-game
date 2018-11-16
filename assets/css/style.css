@@ -9,6 +9,7 @@ body {
   margin: auto;
   float: left;
   margin: 5px;
+  color: white;
 }
 
 .text {
@@ -19,6 +20,7 @@ body {
   padding: 20px;
   color: green;
   font-size: 1em;
+  font-weight: bold;
 }
 
 .gameNumber {
