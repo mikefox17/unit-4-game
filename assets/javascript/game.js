@@ -18,6 +18,7 @@ $(document).ready(function() {
 
   $("#c1").on("click", function() {
     console.log(c1);
+    $(".score").html(c1);
   });
 
   $("#c2").on("click", function() {
