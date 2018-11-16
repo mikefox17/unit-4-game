@@ -10,9 +10,9 @@ $(document).ready(function() {
   var c4 = Math.floor(Math.random() * 11 + 1);
   console.log(c4);
   var wins = 0;
-  $("#p1").html("Wins:", +wins);
+  $("#p1").html("Wins: ", +wins);
   var losses = 0;
-  $("#p2").html("Losses:", +losses);
+  $("#p2").html("Losses: ", +losses);
   var playerScore = 0;
   var gameNumber = Math.floor(Math.random() * 101 + 19);
   console.log(gameNumber);
@@ -34,12 +34,12 @@ $(document).ready(function() {
     $(".score").html(playerScore);
     if (playerScore == gameNumber) {
       wins++;
-      $("#p1").html("Wins:" + wins);
+      $("#p1").html("Wins: " + wins);
       reset();
     }
     if (playerScore > gameNumber) {
       losses++;
-      $("#p2").html("Losses:" + losses);
+      $("#p2").html("Losses: " + losses);
       reset();
     }
   });
@@ -49,12 +49,12 @@ $(document).ready(function() {
     $(".score").html(playerScore);
     if (playerScore == gameNumber) {
       wins++;
-      $("#p1").html("Wins:" + wins);
+      $("#p1").html("Wins: " + wins);
       reset();
     }
     if (playerScore > gameNumber) {
       losses++;
-      $("#p2").html("Losses:" + losses);
+      $("#p2").html("Losses: " + losses);
       reset();
     }
   });
@@ -64,12 +64,12 @@ $(document).ready(function() {
     $(".score").html(playerScore);
     if (playerScore == gameNumber) {
       wins++;
-      $("#p1").html("Wins:" + wins);
+      $("#p1").html("Wins: " + wins);
       reset();
     }
     if (playerScore > gameNumber) {
       losses++;
-      $("#p2").html("Losses:" + losses);
+      $("#p2").html("Losses: " + losses);
       reset();
     }
   });
@@ -79,12 +79,12 @@ $(document).ready(function() {
     $(".score").html(playerScore);
     if (playerScore == gameNumber) {
       wins++;
-      $("#p1").html("Wins:" + wins);
+      $("#p1").html("Wins: " + wins);
       reset();
     }
     if (playerScore > gameNumber) {
       losses++;
-      $("#p2").html("Losses:" + losses);
+      $("#p2").html("Losses: " + losses);
       reset();
     }
   });
